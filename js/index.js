@@ -14,8 +14,8 @@ function toggleBtn(btn) {
 
   function openNav() {
     console.log("click")
-    document.getElementById("banner-sidebar").style.width = "1200px";
-    document.getElementById("banner-button").style.right = "1200px";
+    document.getElementById("banner-sidebar").style.width = "950px";
+    document.getElementById("banner-button").style.right = "950px";
     document.getElementById("close").style.visibility = "visible";
   }
   

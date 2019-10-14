@@ -3,6 +3,20 @@
     /* outline: 1px solid green; */
 }
 
+a.btn-comprar{
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+.banner:active{
+    outline: none;
+    border: none;
+}
+    
+.banner:focus{
+    outline:0;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -263,10 +277,6 @@ ul{
     text-align: center;
   }
 
-  .btn-primary{
-      background: #ff5964;
-  }
-
   .card-btn{
       display: flex;
       justify-content: center;
@@ -276,8 +286,14 @@ ul{
       background: #ff5964;
       border: none;
       padding: 10px 15px;
-      color: white;
+      color: white !important;
+      cursor: pointer;
+  }
 
+  .btn-comprar:hover{
+    background: #693668;
+    text-decoration: none:
+    color: white;
   }
 
 .banner{
@@ -328,7 +344,7 @@ ul{
 }
 
 .banner-info{
-    margin: 80px auto 0 auto;
+    margin: 30px auto 0 auto;
     text-align: center;
 }
 
@@ -339,6 +355,7 @@ ul{
 
 .banner-text3{
     color: #1b1b3a;
+    margin: 0 10px;
 }
 
 .banner-input{
@@ -356,7 +373,7 @@ ul{
 }
 
 .banner-button{
-    background: #ff5964;
+    background: #1b1b3a;
     color: #ffffff;
     font-size: 16px;
     border: none;
@@ -365,6 +382,10 @@ ul{
     height: 40px;
     width: 400px;
     margin-top: 15px;
+}
+
+.banner-button:hover{
+    background: #693668;
 }
 
 .closebtn{
